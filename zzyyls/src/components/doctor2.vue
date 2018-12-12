@@ -1,7 +1,7 @@
 <template>
 <div class="doctor2">
     <h3>王安安 <el-tag  type="success">男</el-tag>  <el-tag>23岁</el-tag></h3>
-    <img src="../assets/yao.jpg" alt="">
+    <img src="https://cdn.nlark.com/yuque/0/2018/jpeg/92616/1543724341302-assets/web-upload/7f119bd6-6298-44fc-9f11-778d28be523b.jpeg" alt="">
     <h4>疾病</h4>
     <div class="jb-list">
         <el-tag size="medium" >脑膜炎</el-tag>
@@ -61,7 +61,7 @@
                 </el-alert>
             </template>
         </el-collapse-item>
-        <el-collapse-item title="大胸" name="4">
+        <el-collapse-item title="漂亮" name="4">
             <template>
                 <el-alert
                     title="2018年11月30日"
@@ -104,8 +104,12 @@
     </el-form>
 
     <div class="c-t">
-        <el-button type="success" plain icon="el-icon-arrow-left">选择病人</el-button>
-        <el-button type="success">开始诊疗<i class="el-icon-arrow-right el-icon--right"></i></el-button>
+        <router-link to="/Home/0">
+            <el-button type="success" plain icon="el-icon-arrow-left">选择病人</el-button>
+        </router-link>
+        <router-link to="/Home/2">
+            <el-button type="success">开始诊疗<i class="el-icon-arrow-right el-icon--right"></i></el-button>
+        </router-link>
     </div>
 
     <!-- <div v-for="(ans,index) in an" :key="ans" class="text item">

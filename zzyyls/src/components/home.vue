@@ -1,8 +1,8 @@
 <template>
 <div class="home">
-    <!-- <doctor2></doctor2> -->
-    <doctor3></doctor3>
-    <!-- <doctor4></doctor4> -->
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
 
 
 
@@ -13,6 +13,9 @@
 import doctor2 from '~/components/doctor2.vue';
 import doctor3 from '~/components/doctor3.vue';
 import doctor4 from '~/components/doctor4.vue';
+import drug1 from '~/components/drug1.vue';
+import logistics from '~/components/logistics.vue';
+
 
 
 export default {
@@ -25,7 +28,9 @@ export default {
   components: {
       doctor2,
       doctor3,
-      doctor4
+      doctor4,
+      drug1,
+      logistics
   },
   methods: {
      
@@ -49,7 +54,11 @@ export default {
     }
 }
 @media screen and (min-width:900px) {
-    
+    .home{
+        background: #fff;
+        border-radius: 2px;
+        padding: 15px 15px 50px 15px;
+    }
 }
 </style>
 

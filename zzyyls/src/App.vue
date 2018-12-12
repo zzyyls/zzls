@@ -30,5 +30,17 @@ export default {
   img{
     width:100%;
   }
+  
+}
+a{
+  text-decoration:none;
+  color:#000;
+}
+@media screen and (min-width:900px) {
+  #app{
+    width:700px;
+    margin: 0 auto;
+  }
+    
 }
 </style>
