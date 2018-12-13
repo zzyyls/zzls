@@ -128,7 +128,11 @@
             <p>腰部有明显断层</p>
             <img src="https://cdn.nlark.com/yuque/0/2018/png/92616/1544711707123-dfabd712-81d2-4700-ac0b-fd0ef3e8b294.png" alt="">
             <h5>拍片医师</h5>
-            <p> <el-tag  type="success" size="medium">王安安</el-tag></p>
+            <p>
+                <router-link to="/Peoplex/3">
+                    <el-tag  type="success" size="medium">王安安</el-tag>
+                </router-link>
+            </p>
             <h5>诊断意见</h5>
             <p>马上手术</p>
 
