@@ -43,10 +43,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@media screen and (max-width:900px) {
     .doctor5{
         padding: 15px;
-        background-color: #ebeef5;
+        background-color: #fbf9f9;
         border-radius: 4px;
         display: flex;
         flex-direction: row;
@@ -62,11 +61,10 @@ export default {
             overflow: hidden;
         }
     }
-}
 @media screen and (min-width:900px) {
     .doctor5{
         padding: 15px;
-        background-color: #ebeef5;
+        background-color: #fbf9f9;
         border-radius: 4px;
         display: flex;
         flex-direction: row;

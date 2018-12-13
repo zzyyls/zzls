@@ -1,5 +1,5 @@
 <template>
-<div class="drug1">
+<div class="drug2">
     <h3>碳酸钙D3颗粒 <el-tag size="small" type="success">处方药</el-tag> <el-tag size="small">饭后服用</el-tag> <el-tag size="small" type="danger">孕</el-tag></h3>
     <img src="https://cdn.nlark.com/yuque/0/2018/jpeg/92616/1544639048326-087dad27-f084-4b1d-949f-4918cb96d57b.jpeg" alt="">
     <h4>通用名称</h4>
@@ -30,8 +30,6 @@
     <div class="c-t">
         <el-button type="success" plain icon="el-icon-arrow-left" @click="back">治疗详情</el-button>
     </div>
-    
-    
 
 </div>
 </template>
@@ -41,7 +39,7 @@
 
 
 export default {
-  name: 'drug1',
+  name: 'drug2',
   data() {
     return {
        
@@ -65,7 +63,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  .drug1{
+  .drug2{
         background: #fff;
         border-radius: 2px;
         padding: 15px 10px;
@@ -99,7 +97,7 @@ export default {
         }
     }
 @media screen and (min-width:900px) {
-    .drug1{
+    .drug2{
         background: #fff;
         border-radius: 2px;
         padding: 15px 15px 50px 15px;

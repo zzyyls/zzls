@@ -1,10 +1,14 @@
 <template>
 <div class="logistics">
     <h3>物流情况</h3>
-    <img src="https://cdn.nlark.com/yuque/0/2018/png/92616/1544641813074-244e459d-85b9-42dd-b3fa-56056a958862.png" alt="">
-    <h4>快递公司</h4>
+    <h4>药品详情</h4>
+    <p>  
+        <drug></drug>
+        <drug3></drug3>
+    </p>
+    <h4>物流情况 <el-tag type="success" size="medium">顺丰快递</el-tag></h4>
     <p>
-        <el-tag type="success">顺丰快递</el-tag>
+        <img src="https://cdn.nlark.com/yuque/0/2018/png/92616/1544641813074-244e459d-85b9-42dd-b3fa-56056a958862.png" alt="">
     </p>
     <h4>运单号</h4>
     <p>
@@ -22,17 +26,14 @@
         <el-button type="success" plain>17610705501 <i class="el-icon-phone-outline el-icon--right"></i></el-button>
     </p>
 
-    <div class="c-t">
-        <router-link to="/Home/6">
-            <el-button type="success"  icon="el-icon-arrow-left">药品详情</el-button>
-        </router-link>
-    </div>
-
 
 </div>
 </template>
 
 <script>
+import drug from '~/components/drug.vue';
+import drug3 from '~/components/drug3.vue';
+
 
 export default {
   name: 'logistics',
@@ -42,10 +43,10 @@ export default {
     }
   },
   components: {
-
+      drug3,
+      drug
   },
   methods: {
-     
 
   },
   watch: {
@@ -58,7 +59,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@media screen and (max-width:900px) {
     .logistics{
         h3:after {
             content: " ";
@@ -85,8 +85,8 @@ export default {
         .c-t{
             margin:  30px 0 15px 0;
         }
+        
     }
-}
 @media screen and (min-width:900px) {
     .logistics{
         

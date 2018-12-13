@@ -1,34 +1,27 @@
 <template>
-<div class="home">
-    <transition name="fade" mode="out-in">
-        <keep-alive>
-        <router-view></router-view>
-        </keep-alive>
-    </transition>
+<div class="people2">
+    <logistics></logistics>
+    <div class="c-t">
+        <router-link to="/Peoplex">    
+            <el-button type="success"  icon="el-icon-arrow-left">详情</el-button>
+        </router-link>
+    </div>
 </div>
 </template>
 
 <script>
-import doctor2 from '~/components/doctor2.vue';
-import doctor3 from '~/components/doctor3.vue';
-import doctor4 from '~/components/doctor4.vue';
-import drug1 from '~/components/drug1.vue';
 import logistics from '~/components/logistics.vue';
 
 
 
 export default {
-  name: 'home',
+  name: 'people2',
   data() {
     return {
 
     }
   },
   components: {
-      doctor2,
-      doctor3,
-      doctor4,
-      drug1,
       logistics
   },
   methods: {
@@ -46,19 +39,24 @@ export default {
 
 <style scoped lang="scss">
 @media screen and (max-width:900px) {
-  .home{
+  .people2{
         background: #fff;
         border-radius: 2px;
         padding: 15px 10px;
     }
 }
 @media screen and (min-width:900px) {
-    .home{
+    .people2{
         background: #fff;
         border-radius: 2px;
         padding: 15px 15px 50px 15px;
     }
 }
+
+.c-t{
+    margin:  30px 0 15px 0;
+}
+
 
 .fade-enter-active,
 .fade-leave-active {
@@ -68,6 +66,7 @@ export default {
 .fade-leave-active {
     opacity: 0;
 }
+
 
 </style>
 

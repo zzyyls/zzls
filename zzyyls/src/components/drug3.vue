@@ -1,18 +1,18 @@
 <template>
-<div class="drug">
+<div class="drug3">
     <div class="img">
-        <img src="https://cdn.nlark.com/yuque/0/2018/jpeg/92616/1544639048326-087dad27-f084-4b1d-949f-4918cb96d57b.jpeg" alt="">
+        <img src="https://cdn.nlark.com/yuque/0/2018/png/92616/1544708314900-b3736042-3295-418e-b302-a866e1142958.png" alt="">
     </div>
     <div>
-        <router-link to="/Home/6">
-            <h5>碳酸钙D3颗粒 朗迪 3g*12袋 <el-tag size="small" type="success">处方药</el-tag> <el-tag size="small">饭后服用</el-tag> <el-tag size="small" type="danger">孕</el-tag></h5>
+        <div>
+            <h5>感冒灵颗粒 10g*9袋 <el-tag size="small" type="success">处方药</el-tag> <el-tag size="small">饭后服用</el-tag> <el-tag size="small" type="danger">孕</el-tag></h5>
             <div class="jb-list">
                 <el-alert
                     title="每天3次，每次1粒"
                     type="warning">
                 </el-alert>
             </div>
-        </router-link>
+        </div>
     </div>
 </div>
 </template>
@@ -20,7 +20,7 @@
 <script>
 
 export default {
-  name: 'drug',
+  name: 'drug3',
   data() {
     return {
        
@@ -42,8 +42,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  .drug{
-        padding: 15px;
+  .drug3{
+        padding: 12px;
         background-color: #fbf9f9;
         border-radius: 3px;
         display: flex;

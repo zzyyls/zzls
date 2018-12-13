@@ -161,7 +161,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@media screen and (max-width:900px) {
   .doctor2{
         .el-breadcrumb{
             margin:0 30px 15px 0;
@@ -203,7 +202,6 @@ export default {
         }
 
     }
-}
 @media screen and (min-width:900px) {
     
 }

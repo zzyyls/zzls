@@ -13,25 +13,17 @@
     <h4>疾病详情</h4>
 
     <el-form :label-position="labelPosition" label-width="80px" :model="formLabelAlign1">
-        
-        <!-- <el-form-item label="公司">
-            <el-input v-model="formLabelAlign1.gs" type="textarea" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
-        </el-form-item>
-        <el-form-item label="地址">
-            <el-input v-model="formLabelAlign1.dz" type="textarea" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
-        </el-form-item> -->
-
         <el-tabs v-model="activeName" @tab-click="handleClick" type="card">
             <el-tab-pane label="治疗" name="first">
                 <h4>治疗方案</h4>
                 <el-form-item label="">
-                    <el-input v-model="formLabelAlign1.name" placeholder="治疗1：多喝水" type="textarea" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
+                    <el-input v-model="formLabelAlign1.name" placeholder="治疗1：多喝水" :disabled="true" type="textarea" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
                 </el-form-item>
                 <el-form-item label="">
-                    <el-input v-model="formLabelAlign1.name11" placeholder="治疗1：多吃饭" type="textarea" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
+                    <el-input v-model="formLabelAlign1.name11" placeholder="治疗1：多吃饭" :disabled="true" type="textarea" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
                 </el-form-item>
                 <el-form-item label="">
-                    <el-input v-model="formLabelAlign1.name22" placeholder="治疗1：多睡觉" type="textarea" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
+                    <el-input v-model="formLabelAlign1.name22" placeholder="治疗1：多睡觉" :disabled="true" type="textarea" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
                 </el-form-item>
                 <el-button icon="el-icon-plus" circle></el-button>
                 <h4>推荐药品</h4>
@@ -40,7 +32,7 @@
             </el-tab-pane>
             <el-tab-pane label="症状" name="second">
                 <el-form-item label="">
-                <el-input v-model="formLabelAlign1.name1" type="textarea" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
+                <el-input v-model="formLabelAlign1.name1" type="textarea" :disabled="true" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
                 <el-tag
                     :key="tag"
                     v-for="tag in dynamicTags"
@@ -63,27 +55,27 @@
             </el-tab-pane>
             <el-tab-pane label="病因" name="third">
                 <el-form-item label="">
-                    <el-input v-model="formLabelAlign1.region" placeholder="请输入" type="textarea" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
+                    <el-input v-model="formLabelAlign1.region" placeholder="请输入" :disabled="true" type="textarea" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
                 </el-form-item>
             </el-tab-pane>
             <el-tab-pane label="诊断" name="fourth">
                 <el-form-item label="">
-                    <el-input v-model="formLabelAlign1.type" placeholder="请输入" type="textarea" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
+                    <el-input v-model="formLabelAlign1.type" placeholder="请输入" :disabled="true" type="textarea" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
                 </el-form-item>
             </el-tab-pane>
             <el-tab-pane label="生活" name="five">
                 <el-form-item label="">
-                    <el-input v-model="formLabelAlign1.hun" placeholder="请输入" type="textarea" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
+                    <el-input v-model="formLabelAlign1.hun" placeholder="请输入" :disabled="true" type="textarea" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
                 </el-form-item>
             </el-tab-pane>
             <el-tab-pane label="预防" name="six">
                 <el-form-item label="">
-                    <el-input v-model="formLabelAlign1.mz" placeholder="请输入" type="textarea" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
+                    <el-input v-model="formLabelAlign1.mz" placeholder="请输入" :disabled="true" type="textarea" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
                 </el-form-item>
             </el-tab-pane>
-            <el-tab-pane label="下一次医留言" name="seven">
+            <el-tab-pane label="留言" name="seven">
                 <el-form-item label="">
-                    <el-input v-model="formLabelAlign1.gs" placeholder="请输入" type="textarea" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
+                    <el-input v-model="formLabelAlign1.gs" placeholder="请输入" :disabled="true" type="textarea" :autosize="{ minRows: 2, maxRows: 4}"></el-input>
                 </el-form-item>
             </el-tab-pane>
         </el-tabs>
@@ -164,27 +156,25 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@media screen and (max-width:900px) {
-    .doctor3{
-        .el-form-item {
-            margin-bottom: 9px;
-        }
-        .el-form-item__content{
-            .el-tag{
-                margin-right: 5px;
-            }
-        }
-        .el-button--primary{
-            margin-top: 20px;
-        }
-        .c-t{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin-top: 15px;
-        }
-        
+.doctor3{
+    .el-form-item {
+        margin-bottom: 9px;
     }
+    .el-form-item__content{
+        .el-tag{
+            margin-right: 5px;
+        }
+    }
+    .el-button--primary{
+        margin-top: 20px;
+    }
+    .c-t{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+    
 }
 
 @media screen and (min-width:900px) {

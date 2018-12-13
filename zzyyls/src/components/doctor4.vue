@@ -43,11 +43,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@media screen and (max-width:900px) {
     .doctor4{
         
     }
-}
 @media screen and (min-width:900px) {
     
 }
