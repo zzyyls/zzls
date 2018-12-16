@@ -27,11 +27,12 @@ export default {
     font-size: 12px;
     padding: 10px 20px;
   }
-  img{
-    width:100%;
-  }
   
 }
+img{
+  width:100%;
+}
+
 a{
   text-decoration:none;
   color:#000;

@@ -2,6 +2,7 @@
 <div class="docp">
     <h3>陈元秀 <el-tag  type="success" size="medium">男</el-tag>  <el-tag size="medium">45岁</el-tag></h3>
     <div class="docp_p">
+        <img src="http://clinicclub-10009738.image.myqcloud.com/ebcf089c-0cad-4be5-8c89-0487e11058dc" alt="">
         <h4>医院</h4>
         <p>武汉大学人民医院</p>
         <h4>科室</h4>
@@ -14,7 +15,7 @@
             <el-tag type="warning" size="small">副教授</el-tag>
             <el-tag type="info" size="small">主任医师</el-tag>
             <el-tag type="success" size="small">心功能科主任</el-tag>
-            <el-tag type="danger" size="small">湖北省心电生理与起搏学会委员</el-tag>
+            <el-tag type="warning" size="small">湖北省心电生理与起搏学会委员</el-tag>
             <el-tag type="success" size="small">武汉市心电学会副主委</el-tag>
         </p>
         <h4>奖项</h4>
@@ -26,14 +27,15 @@
         <h4>擅长</h4>
         <p>处理各种心血管急症问题，对冠心病各种临床类型的药物治疗和非药物治疗经验丰富。</p>
     </div>
+
+    <div class="c-t">
+        <el-button type="success" plain icon="el-icon-arrow-left" @click="back">治疗详情</el-button>
+    </div>
+
+    <div class="left_top">
+        <h1>医生</h1>
+    </div>
     
-
-
-
-
-
-
-
 
 </div>
 </template>
@@ -48,9 +50,12 @@ export default {
     }
   },
   components: {
+
   },
   methods: {
-     
+    back(){
+        this.$router.go(-1)
+    }
 
   },
   watch: {
@@ -68,6 +73,27 @@ export default {
 }
 @media screen and (min-width:900px) {
     
+}
+
+.docp{
+    position: relative;
+    .left_top{
+        position: absolute;
+        top:-25px;
+        right:0px;
+        background: #409EFF;
+        color:#fff;
+        width:30px;
+        height:30px;
+        line-height: 30px;
+        font-size: 5px;
+        text-align: center;
+        border-radius: 100%;
+        // transform:rotate(50deg);
+        h1{
+            margin: 0;
+        }
+    }
 }
 
 h3:after {
@@ -94,10 +120,25 @@ p{
     margin:7px 0 0 0;
 }
 
+
+
 .docp_p{
     .el-tag--small{
         margin-top: 3px;
     }
+    img{
+        width:100px;
+        border-radius: 100px;
+    }
+}
+
+    
+
+.c-t{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
 </style>

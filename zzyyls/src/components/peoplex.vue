@@ -35,18 +35,16 @@ export default {
 
 <style scoped lang="scss">
 @media screen and (max-width:900px) {
-  .peoplex{
-        background: #fff;
-        border-radius: 2px;
-        padding: 15px 10px;
-    }
+  
 }
 @media screen and (min-width:900px) {
-    .peoplex{
-        background: #fff;
-        border-radius: 2px;
-        padding: 15px 15px 50px 15px;
-    }
+    
+}
+
+.peoplex{
+    background: #fff;
+    border-radius: 2px;
+    padding: 15px 10px;
 }
 
 

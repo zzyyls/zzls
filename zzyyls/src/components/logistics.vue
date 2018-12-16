@@ -1,7 +1,7 @@
 <template>
 <div class="logistics">
     <h3>物流情况</h3>
-    <h4>药品详情</h4>
+    <h4>药品详情 <el-tag type="info" size="small">已支付</el-tag></h4>
     <p>  
         <drug></drug>
         <drug3></drug3>

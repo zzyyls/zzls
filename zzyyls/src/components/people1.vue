@@ -7,9 +7,6 @@
     <p>
         <el-progress :text-inside="true" :stroke-width="18" :percentage="30" status="exception"></el-progress>
     </p>
-    <h5>
-        
-    </h5>
 
     <div class="c-t">
         <router-link to="/Peoplex/0">    

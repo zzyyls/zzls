@@ -17,6 +17,7 @@ import Peoplex from '~/components/peoplex.vue'
 import People from '~/components/people.vue'
 import People1 from '~/components/people1.vue'
 import People2 from '~/components/people2.vue'
+import People3 from '~/components/people3.vue'
 import Docp from '~/components/docp.vue'
 
 
@@ -98,7 +99,11 @@ const routes = [
       {
         path: '3',
         component: Docp
-      }
+      },
+      {
+        path: '4',
+        component: People3
+      },
     ]
   },
   {

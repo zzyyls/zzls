@@ -30,7 +30,10 @@
     <div class="c-t">
         <el-button type="success" plain icon="el-icon-arrow-left" @click="back">治疗详情</el-button>
     </div>
-    
+
+    <div class="left_top">
+        <h1>药品</h1>
+    </div>
     
 
 </div>
@@ -66,9 +69,6 @@ export default {
 
 <style scoped lang="scss">
   .drug1{
-        background: #fff;
-        border-radius: 2px;
-        padding: 15px 10px;
         h3:after {
             content: " ";
             width: 14px;
@@ -98,11 +98,28 @@ export default {
             margin-top: 50px;
         }
     }
+
 @media screen and (min-width:900px) {
-    .drug1{
-        background: #fff;
-        border-radius: 2px;
-        padding: 15px 15px 50px 15px;
+    
+}
+
+.drug1{
+    position: relative;
+    .left_top{
+        position: absolute;
+        top:-30px;
+        right:-5px;
+        background: #f56c6c;
+        color:#fff;
+        width:30px;
+        height:30px;
+        line-height: 30px;
+        font-size: 5px;
+        text-align: center;
+        border-radius: 100%;
+        h1{
+            margin: 0;
+        }
     }
 }
 </style>

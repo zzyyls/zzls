@@ -10,29 +10,29 @@
     <el-tabs :tab-position="tabPosition">
         <el-tab-pane label="治疗">
             <h4>治疗</h4>
-            <h5>颈椎病如何治疗？</h5>
+            <h5>手术方式治疗</h5>
             <p>颈椎病的治疗方式分为手术方式和非手术方式，多数颈椎病可以采用理疗、按摩等非手术方法对症状进行缓解，而对有些颈椎病如脊髓型颈椎病效果不好，这类颈椎病可能需要手术治疗，其他的如正确的生活方式及工作姿势也是治疗非常重要的一部分。</p>
-            <h5>颈椎病能治愈吗？</h5>
+            <h5>非手术方式治疗</h5>
             <p>绝大多数颈椎病通过各种治疗方法症状可以缓解，特别是病情比较单一、诊断比较明确的颈椎病效果较好，但颈椎病毕竟是个退变性疾病，往往症状会出现反复，所以一定要注意平时保健，防止复发。</p>
-            <h5>颈椎病可以吃药治疗吗？</h5>
+            <h5>止痛剂治疗</h5>
             <p>在医生指导下，急性疼痛期可选择性应用止痛剂如非甾体药物布洛芬、塞来昔布、镇静剂，伴有眩晕者可选用扩张脑血管、营养神经、增加脑血流量药物如维生素 B1、B12 等，对症状的缓解有一定的效果。服用扩血管，改善微循环药物对于部分颈椎病效果较好。</p>
-            <h5>牵引疗法治疗颈椎病效果如何?</h5>
+            <h5>缓解症状手段</h5>
             <p>颈椎牵引是治疗颈椎病的主要缓解症状手段。因为有效的牵引能缓解神经、血管、脊髓的压迫，并快速缓解颈椎病症状。 具体的讲，颈椎牵引主要是解除颈部肌肉痉挛，缓解疼痛症状，增大椎间隙和椎间孔，有利于已外突的髓核及纤维环组织复位，缓解和解除神经根受压与刺激，促进神经根水肿吸收，解除对椎动脉的压迫，促进血液循环，有利于局部淤血肿胀及增生消退，松懈粘连的关节囊，改善和恢复钩椎关节，调整小关节错位和椎体滑脱，调整和恢复已被破坏的颈椎内外平衡，恢复颈椎的正常功能。适用于轻度颈椎病、经常落枕、颈椎生理曲度改变患者。</p>
-            <h5>颈椎牵引有什么注意事项？</h5>
+            <h5>颈椎牵引有什么注意事项</h5>
             <p>牵引角度：一般来说颈部自躯干纵轴向前前倾约 10°~30°（上颈段、中颈段、下颈段），避免过伸（椎间盘突出除外）。</p>
             <p>牵引重量：原则上以病人能忍受为宜，根据不同的年龄，选择不同的牵引重量，一般不超过15kg。</p>
             <p>牵引时间：一般每日牵引 1~2 次，每次牵引 30 分钟左右，具体应根据病人体质而定。</p>
             <p>牵引方式：一般使用坐式间歇牵引，对年老体弱者通常使用卧式间歇牵引。牵引重量可自 3~4 公斤开始，小重量牵引 7 天为一疗程。</p>
-            <h5>颈椎病带颈托有用吗？</h5>
+            <h5>颈椎病带颈托</h5>
             <p>颈椎病早期带颈托是有用的，特别对于纠正不良姿势，特别是长期低头者，另外对于颈椎不稳，容易落枕的患者有效。对于椎动脉型颈椎病患者，因常有扭头时眩晕，颈托保护可以防止症状发作。</p>
-            <h5>颈椎病需要手术治疗吗？</h5>
+            <h5>颈椎病需要手术治疗</h5>
             <p>颈椎病的治疗方式分为手术方式和非手术方式，多数颈椎病可以采用理疗、按摩等非手术方法对症状进行缓解，只有脊髓型、神经根型和椎动脉型颈椎病的患者需要进行手术治疗。因为颈椎部位有神经、血管、脊髓等重要组织，一些患者对手术产生恐惧心理。但目前我国治疗颈椎病的手术技术已经取得了长足的进步，基本与国际接轨。只要患者到正规大医院的专科进行手术，手术安全一般是有保障的。</p>
-            <h5>颈椎手术有哪些风险？</h5>
+            <h5>颈椎手术有哪些风险</h5>
             <p>颈椎病手术风险较大。颈椎病手术分不同的类型，有微创手术，也有颈椎前路和后路的开放性手术。对于微创手术，很多是在局部麻醉下手术治疗，病人是清醒的，一般来说安全性还是比较高的，触碰到旁边的神经，患者会及时反馈到医生；而对于前后路的开放性手术，如椎体融合术、后路开窗手术等，虽然是有神经电位的监视和影像导航技术的发展，但因颈椎里面的脊髓神经位置高，特别是上位脊髓神经如生命中枢延髓，而里面的血管，椎动脉和颈内动脉等是供应脑部的血管，不可以随便结扎，所以一旦有脊髓神经或者是大的动脉血管的损伤，容易出现较大的损伤，所以手术风险相对较大，一般是在三甲医院开展。</p>
-            <h5>颈椎病患者可以做哪些康复训练？</h5>
+            <h5>颈椎病患者可以做哪些康复训练</h5>
             <p>绝大多数颈椎病患者通过姿势调整、特别是睡姿调整、适当休息以及正确的颈肩背部肌肉锻炼就能恢复健康或是大幅度缓解症状。每日可自行锻炼一次。手法由轻渐重，以能忍耐为度，一般 1-2 月即可见效。</p>
             <p>颈部运动：头向前倾十次，向后仰十次，向左倾十次，向右倾十次。然后缓慢摇头，左转十次，右转十次；</p>
-            <h5>推荐药品</h5>
+            <h5>推荐药品 <el-tag type="info" size="small">已支付</el-tag></h5>
             <div class="drug_p">
                 <drug></drug>
                 <drug3></drug3>
@@ -97,15 +97,27 @@
         </el-tab-pane>
         <el-tab-pane label="病史">
             <h4>病史</h4>
-            <div class="jb-list">
-                <el-tag size="medium" >脑膜炎</el-tag>
-                <el-tag size="medium" type="success">感冒</el-tag>
-                <el-tag size="medium" type="warning">拉肚子</el-tag>
-                <el-tag size="medium" type="info">胃炎</el-tag>
-                <el-tag size="medium" type="danger">胃病</el-tag>
+            <div class="med_s">
+                <h5>2018年10月24日 22:10:20 <router-link to="/Peoplex/4"><el-tag size="medium" >脑膜炎</el-tag></router-link></h5>
+                <p style="height: 200px;">
+                    <el-steps direction="vertical" :active="2" finish-status="success">
+                        <el-step title="住院" description="2017年10月10日"></el-step>
+                        <el-step title="治疗阶段" description="2018年01月10日"></el-step>
+                        <el-step title="康复" description="2018年02年10月"></el-step>
+                    </el-steps>
+                </p>
             </div>
-            <h5>胃病</h5>
-            <p>有胃病家族史，很喜欢的人沟通和交流。</p>
+            <div class="med_s">
+                <h5>2018年09月12日 22:10:20 <router-link to="/Peoplex/4"><el-tag size="medium" type="danger" >感冒</el-tag></router-link></h5>
+                <p style="height: 200px;">
+                    <el-steps direction="vertical" :active="3" finish-status="success">
+                        <el-step title="住院" description="2017年10月10日"></el-step>
+                        <el-step title="治疗阶段" description="2018年01月10日"></el-step>
+                        <el-step title="已康复" description="2018年02年10月"></el-step>
+                    </el-steps>
+                </p>
+            </div>
+            
         </el-tab-pane>
         <el-tab-pane label="血检">
             <h4>血检</h4>
@@ -142,6 +154,7 @@
             <h5>2018年10月10日 10:23:30</h5>
             <p>胃部已经断层</p>
             <img src="https://cdn.nlark.com/yuque/0/2018/png/92616/1544712332550-cfe434ea-5cf6-407a-9038-a18ad9c0ae3e.png" alt="">
+            <h5>拍片医师</h5>
             <p> <el-tag  type="success" size="medium">孙医生</el-tag></p>
             <h5>诊断意见</h5>
             <p>马上手术</p>
@@ -152,6 +165,10 @@
             <p>复查时带上自己拍的片子</p>
         </el-tab-pane>
     </el-tabs>
+    
+    <div class="left_top">
+        <h1>患者</h1>
+    </div>
 
 
     
@@ -193,7 +210,7 @@ export default {
     .drug_p{
         padding: 8px;
         margin-top: 15px;
-        background: #ebeef5;
+        background: #f2f3f5;
         border-radius: 3px;
         .drug:first-child{
             margin-top: 0;
@@ -201,6 +218,27 @@ export default {
     }
     
 }
+
+.people{
+    position: relative;
+    .left_top{
+        position: absolute;
+        top:-30px;
+        right:-5px;
+        background: #409EFF;
+        color:#fff;
+        width:30px;
+        height:30px;
+        line-height: 30px;
+        font-size: 5px;
+        text-align: center;
+        border-radius: 100%;
+        h1{
+            margin: 0;
+        }
+    }
+}
+
 h3:after {
     content: " ";
     width: 14px;
@@ -250,12 +288,22 @@ p{
     justify-content: flex-start;
 }
 
+.med_s{
+   background: #ebeef5; 
+   border-radius: 3px;
+   padding: 15px;
+   margin-bottom: 15px;
+   h5{
+       margin-top: 5px;
+   }
+}
+
 
 @media screen and (min-width:900px) {
     .drug_p{
         padding: 10px;
         margin-top: 15px;
-        background: #ebeef5;
+        background: #f2f3f5;
         border-radius: 3px;
         .drug:first-child{
             margin-top: 0;
