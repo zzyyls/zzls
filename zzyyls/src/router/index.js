@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 import App from '~/App.vue'
 import Home from '~/components/home.vue'
+import SEE from '~/components/home/index.vue'
 import Index from '~/components/index.vue'
 import Doctor1 from '~/components/doctor1.vue'
 import Doctor2 from '~/components/doctor2.vue'
@@ -28,7 +29,7 @@ Vue.use(Router)
 const routes = [
   {
     path: '/',
-    redirect: '/Peoplex'
+    redirect: '/See'
   },
   {
     path: '/Home',
@@ -109,6 +110,10 @@ const routes = [
   {
     path: '/Index',
     component: Index,
+  },
+  {
+    path: '/See',
+    component: SEE,
   }
 ]
 
